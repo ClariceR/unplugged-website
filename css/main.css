@@ -87,58 +87,108 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-a {
-  text-decoration: none;
-}
-
-.content-wrapper {
-  display: flex;
-}
-
-/* ----- Base Header & Footer Styles ----- */
+/* ----- Base Header - Footer Styles ----- */
 header,
 footer {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
-/* ----- Header ----- */
-
-nav ul {
+header .content-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+}
+
+header nav ul {
   list-style: none;
   padding: 0;
-}
-
-/* ----- Footer ----- */
-
-.footer-content {
   display: flex;
-}
-
-/* ===== Mobile ===== */
-
-header,
-footer {
-  flex-direction: column;
-}
-
-.content-wrapper {
-  flex-direction: column;
-}
-
-/* ----- Header ----- */
-
-nav ul {
   justify-content: space-around;
+  width: 100%;
 }
 
-/* ----- Footer ----- */
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-.footer-content {
-  flex-direction: column;
+footer .social-icons p {
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ------ Mobile Styles - Homepage ------ */
+
+/* Hero area */
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* Aside */
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+} /* Added by me ^ */
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Reviews */
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+} /* Added by me ^ */
+
+/* Footer */
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 /* ==========================================================================
