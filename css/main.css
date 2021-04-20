@@ -87,6 +87,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a {
+  text-decoration: none;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+/* ----- Base Header & Footer Styles ----- */
+header,
+footer {
+  display: flex;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+/* ----- Header ----- */
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+/* ----- Footer ----- */
+
+.footer-content {
+  display: flex;
+}
+
+/* ===== Mobile ===== */
+
+header,
+footer {
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex-direction: column;
+}
+
+/* ----- Header ----- */
+
+nav ul {
+  justify-content: space-around;
+}
+
+/* ----- Footer ----- */
+
+.footer-content {
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
