@@ -136,6 +136,25 @@ footer {
 }
 
 /* ------ Mobile Styles - Homepage ------ */
+header {
+  padding: 15px 0;
+}
+
+header .content-wrapper {
+  margin: 0;
+}
+
+header nav {
+  padding: 20px 0;
+}
+
+.content-wrapper {
+  width: 80%;
+}
+
+.header-divider {
+  width: 100%;
+}
 
 /* Hero area */
 .hero-area {
@@ -170,6 +189,11 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* Reviews */
@@ -189,6 +213,10 @@ aside {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
 }
 
 /* ==========================================================================
