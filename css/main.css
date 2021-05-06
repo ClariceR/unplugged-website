@@ -362,6 +362,21 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -609,7 +624,7 @@ input[type=button] {
     width: 100%;
   }
 
-  /* ---------- About Page ---------- */
+  /* ---------- About Page Tablet ---------- */
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -620,19 +635,9 @@ input[type=button] {
     width: 45%;
   }
   .map figure {
-    width: 100%;
-    height: 0;
-    padding-bottom: 125%;
-    overflow: hidden;
-    position: relative;
+    padding-bottom: 45%;
   }
-  .map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+  
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -645,7 +650,7 @@ input[type=button] {
     font-size: 1.5em;
   }
 
-  /* ---------- FAQ Page ---------- */
+  /* ---------- FAQ Page Tablet ---------- */
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -719,7 +724,10 @@ input[type=button] {
     font-size: 1.875em;
   }
 
-  /* ---------- About Page ---------- */
+  /* ---------- About Page Desktop ---------- */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
   .mission h2,
   .content-section .content-wrapper h2 {
     width: 95%;
@@ -729,7 +737,7 @@ input[type=button] {
     font-size: 1.875em;
   }
 
-  /* ---------- FAQ Page ---------- */
+  /* ---------- FAQ Page Desktop ---------- */
   .faq h2 {
     width: 100%;
     font-size: 3em;
